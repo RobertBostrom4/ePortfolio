@@ -1,5 +1,5 @@
 <p>
-  <a href="mailto:your-email@example.com" title="Reach out via email">
+  <a href="mailto:robertbostrom4@gmail.com" title="Reach out via email">
     <img src="https://img.shields.io/badge/Ask_me!-anything-orange.svg?style=for-the-badge&logo=gmail" alt="Ask Me Anything" />
   </a>
   &nbsp;&nbsp;
