@@ -41,6 +41,8 @@ This ePortfolio showcases selected projects, assignments, and reflections from m
 <br/>
 
 ### _Software Design and Engineering_
+<img id="Design" src="assets/img/Software Design Enhancement.png" alt="Software Design Enhancement" title="Software Design" />
+
 The artifact I selected for enhancement was the dashboard from my CS-340 project, which was originally built in a Jupyter Notebook using Python Dash. The dashboard visualized animal rescue data and queried a MongoDB database using a custom CRUD module. Although it was fully functional, the original setup had several limitations that impacted maintainability, security, and potential deployment outside the notebook environment.
 
 To address these concerns, I transformed the notebook into a standalone Python application by refactoring the code into an app.py script. I replaced hardcoded database credentials with environment variables loaded from a .env file, significantly improving the project's security and flexibility. This change also aligned the application more closely with industry standards for configuration management.
@@ -50,6 +52,8 @@ Another major enhancement was switching from JupyterDash to dash.Dash, which all
 This enhancement clearly aligns with Course Outcome #4, demonstrating the use of well-founded and innovative techniques in computing practices. It also supports Course Outcome #3 by improving the design structure for long-term maintainability and showcasing thoughtful trade-off management in engineering decisions. Overall, I learned how architectural improvements, like removing hardcoded values and isolating configuration , can dramatically improve software quality, security, and readiness for deployment.
 
 ### _Algorithms and Data Structures_
+<img id="algorithms" src="assets/img/Algorithms Enhancement.png" alt="Algorithms and Data Structure" title="Algorithms and Data Structure" />
+
 The artifact I selected is a Dash-based data dashboard project that connects to a MongoDB database to visualize animal rescue data for the fictional company Grazioso Salvare. I originally created it during CS-340, where we built a full-stack dashboard using Python, Dash, and MongoDB. The project loads animal records from the database and allows users to filter by rescue type, explore breed distribution with a pie chart, and view animal locations on an interactive map.
 
 I chose this artifact for my ePortfolio because it gave me the opportunity to demonstrate real-world use of data structures and algorithmic thinking in a web-based application. In particular, the enhancements I implemented for Category 2 focused on optimizing the way data is filtered, cached, and processed. I replaced repeated MongoDB queries with a more efficient in-memory filtering system using pandas masks, which is better suited for small to medium-sized datasets and showcases algorithmic efficiency. I also introduced caching to avoid redundant computations when users select the same filters multiple times, and used projection to reduce the amount of data transferred from the database. These changes improved the overall responsiveness of the dashboard and made the code more scalable and maintainable.
@@ -59,6 +63,8 @@ Yes, I met the course outcomes I planned for in Module One, specifically the abi
 While enhancing this artifact, I learned a lot about performance trade-offs when handling data in a web application. Switching from server-side filtering to in-memory vectorized filtering with pandas not only made the app feel faster, but it also gave me more control over how the data was processed. One challenge I ran into was handling encoding issues and inconsistencies in the data types returned from MongoDB, especially with fields like ObjectId and strings with extra whitespace. I resolved these by adding a cleanup function that standardizes and coerces the data before it's used in the dashboard.
 
 ### _Databases_
+<img id="databases" src="assets/img/Databases Enhancement.png" alt="Databases" title="Databases" />
+
 The artifact I selected is the database layer of my Dash-based web application for Grazioso Salvare, originally created during my work in CS-340. Specifically, it’s the crud_module.py file, which acts as a custom Python module to manage MongoDB operations such as reading, writing, and updating animal rescue data. This module connects to the database securely using environment variables and allows the application to filter and display animal records dynamically.
 
 I chose this artifact for my ePortfolio because it represents a significant piece of the backend logic that powers my application and demonstrates my ability to write modular, efficient, and secure code for interacting with a NoSQL database. It shows that I can separate concerns by creating a reusable class to handle database access, a common practice in professional software development. The most important improvements I made to this module included adding field projection to limit the data returned by MongoDB, implementing an in-memory caching system to prevent redundant queries, and building a read_df() method that returns clean, analysis-ready pandas DataFrames. I also added logic to clean and convert data types to prevent runtime errors in the dashboard. These improvements made the application faster, more secure, and easier to maintain.
