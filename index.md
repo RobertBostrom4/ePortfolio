@@ -20,10 +20,20 @@ This ePortfolio showcases selected projects, assignments, and reflections from m
 - [Databases](#databases)
 - [Reviews](#reviews)
 
-<!-- Example Image Embed -->
-<img id="self-assessment" src="assets/img/selfassessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
-
 ### _Professional Self-Assessment_
+
+Over the course of my time in the Computer Science program at Southern New Hampshire University, I’ve grown from a student with curiosity about software into someone with hands-on experience solving real-world problems through code. Developing my ePortfolio, particularly enhancing the Salvare Search for Rescue project, was a major step in showcasing the skills I’ve developed, clarifying my career goals, and preparing me for the workforce.
+
+The Salvare Search for Rescue dashboard, originally developed in CS-340, was the ideal artifact for my ePortfolio because it touches on nearly every area of my learning. It involved building a CRUD module with Python and PyMongo, designing a user-friendly interface using Plotly Dash, and connecting to a non-relational MongoDB database, all while meeting the needs of a real-world client simulation. Enhancing the project to improve performance, restructure functions for modularity, and document everything clearly gave me a chance to demonstrate my abilities in clean coding practices, efficient data handling, and secure development. These enhancements helped me strengthen both the functionality and maintainability of the system, while also making it more scalable for future use.
+
+Beyond the artifacts themselves, this project helped solidify my professional values, especially the importance of writing maintainable code and designing with users in mind. It also reminded me how much I enjoy backend logic, which is influencing my decision to pursue work in full-stack development or backend software engineering. Developing this ePortfolio has been instrumental in identifying the type of work that energizes me, and I feel more prepared to target roles that align with my strengths.
+
+Throughout the program, I’ve had several opportunities to collaborate on team-based projects and exercises. Working in team environments has taught me how to divide tasks strategically and merge ideas into cohesive solutions. It didn’t matter if I was designing RESTful APIs or contributing to code reviews, I learned how to adapt my communication style depending on whether I was speaking to teammates, professors, or simulated clients. I believe these experiences have made me more effective at presenting technical ideas clearly and confidently, a skill that came in handy when recording my capstone code review video.
+I’ve built a solid foundation in the technical areas that matter most for a computer science professional. I became confident implementing and analyzing data structures and algorithms, including sorting algorithms, hash maps, and recursive functions. I applied this knowledge while optimizing parts of the Salvare dashboard, ensuring that the backend operations were both fast and memory-efficient. In software engineering and databases, I built apps from scratch, structured codebases logically, and integrated front-end tools with back-end MongoDB databases using PyMongo. I also applied security concepts like input validation and modular separation of concerns to make sure the application was secure and maintainable.
+
+All three ePortfolio categories, Software Design & Engineering, Algorithms & Data Structures, and Databases are represented by this single unified project. This allowed me to go deep into one project while demonstrating a wide range of skills. Each enhancement to the codebase showcased a different strength: ranging from improving the backend logic in the CRUD module, to creating reusable helper functions for database queries, to designing an interface that presented the data clearly and accessibly. 
+As I prepare to enter the job market, I feel ready to apply my skills to real-world software problems. My experiences have confirmed that I enjoy building tools that make data useful and accessible for any kind of user. I’ve also developed a strong interest in backend development, APIs, and working with NoSQL databases. Whether I continue the full-stack path or specialize further, I know I’ll be entering the field with both technical skills and the ability to communicate and collaborate effectively.
+
 
 ### _Refinement Plan and Code Review_
 <div style="text-align: center;">
